@@ -1,0 +1,21 @@
+ ------------------------------------
+ unit.js - Unit Testing library
+ Created by Sergey Ilinsky (http://www.ilinsky.com)
+
+ Based on JsUnit Copyright (C) 2001-7 Edward Hieatt (edward@jsunit.net)
+ ------------------------------------
+
+ About:
+   This is a re-worked JsUnit library with support for relative paths
+
+ How to use:
+ - Deploy the library in the root of your web-server
+ - Create a unit test or suite page
+ - Reference a copy of JsUnitClient.js placed inside directory with your test
+ - Adjust sBaseUriUnitJs variable in JsUnitClient.js
+ - Run your unit tests by accessing following url (PATH can be relative or absolute):
+     http://DOMAIN/unit.js/testRunner.html?testpage=PATH/suite.html&autorun=true
+
+ Example:
+ - Run sample unit tests by accessing following url:
+     http://DOMAIN/unit.js/testRunner.html?testpage=test_sample/suite.html&autorun=true
